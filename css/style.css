@@ -55,7 +55,7 @@ ul li a:hover {
   background-image: url('../img/hero-bg.jpg');
   background-size: cover;
   background-repeat: no-repeat;
-  height: 85vh;
+  height: 650px;
 }
 .hero .container .text{
   margin: 250px auto 10px auto;
@@ -84,6 +84,59 @@ ul li a:hover {
   padding-left: 5px;
   transition: 0.2s;
 }
-
 /* END HERO */
 /*** END HEADER ***/
+
+/*** MAIN ***/
+/* PRODUCT SECTION */
+#product .container {
+  width: 95%;
+  margin: 0 auto;
+}
+#product .container .logo {
+  height: 20px;
+}
+#product .container .h-go,
+#product .container .h-bike {
+  width: 48%;
+  margin: 5% 1%;
+  background: #fafafa;
+  height: 700px;
+}
+#product .container .h-go>a,
+#product .container .h-bike>a {
+  display: block;
+  text-decoration: underline;
+  color: #0070c8;
+  margin-top:20px;
+}
+#product .container .logo {
+  margin: 30px auto;
+}
+#product .container .prod-pic {
+  max-height: 400px;
+  margin-top: 50px;
+}
+#product .container p {
+  font-size: 1.5em;
+}
+a:hover, i:hover {
+  padding-left: 10px;
+  transition: 0.3s;
+}
+/* END PRODUCT SECTION */
+
+/* STEPS SECTION */
+#steps .container {
+  width: 100%;
+  margin: 0 auto;
+}
+#steps .container .top-img{
+  width: 100%;
+  background: url('https://www.helbiz.com/asset/pages/newhome/images/HelbizBanner.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
+/* END STEPS SECTION */
+/*** END MAIN ***/
