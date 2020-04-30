@@ -136,7 +136,23 @@ a:hover, i:hover {
   background: url('https://www.helbiz.com/asset/pages/newhome/images/HelbizBanner.jpg');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: -100px;
   height: 500px;
+}
+#steps .container .bottom .img {
+
+}
+#steps .container .text-left,
+#steps .container .text-right {
+  padding-top: 50px;
+}
+#steps .container .text-left {
+  text-align: right;
+
+}
+#steps .container .bottom .img img{
+  width: 75%;
+  margin: -300px 75px 0 75px;
 }
 /* END STEPS SECTION */
 /*** END MAIN ***/
