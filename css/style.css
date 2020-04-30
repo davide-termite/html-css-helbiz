@@ -120,7 +120,7 @@ ul li a:hover {
 #product .container p {
   font-size: 1.5em;
 }
-a:hover, i:hover {
+#product a:hover, i:hover {
   padding-left: 10px;
   transition: 0.3s;
 }
@@ -139,20 +139,90 @@ a:hover, i:hover {
   background-position: -100px;
   height: 500px;
 }
-#steps .container .bottom .img {
-
-}
 #steps .container .text-left,
 #steps .container .text-right {
   padding-top: 50px;
+  font-size: 2em;
+  line-height: 50px;
 }
 #steps .container .text-left {
   text-align: right;
-
 }
 #steps .container .bottom .img img{
   width: 75%;
   margin: -300px 75px 0 75px;
 }
 /* END STEPS SECTION */
+
+/* USPS SECTION */
+/* Text Style */
+#usps h2 {
+  color: white;
+  font-size: 3em;
+  margin: 100px auto 30px auto;
+}
+#usps p{
+  color: white;
+  font-size: 2em;
+  font-weight: 300;
+  margin: 50px auto;
+}
+#usps a{
+  font-size: 1.5em;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+#usps a:hover {
+  padding-left: 10px;
+  transition: 0.3s;
+  text-decoration: underline;
+}
+/* End Text Style */
+#usps .container {
+  width: 98%;
+  margin: 0 auto;
+}
+#usps .container .top-row {
+  height: 500px;
+  background: url("https://www.helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg");
+  background-size: cover;
+}
+#usps .container .bottom-row {
+  margin-left: 1%;
+  margin-top: 2%;
+}
+#usps .container .bottom-row .left{
+  width: 48%;
+  background: linear-gradient(#41566a,#252f38) 50% no-repeat;
+  height: 1000px;
+}
+#usps .container .bottom-row .right{
+  width: 48%;
+  float: right;
+  background: url("https://www.helbiz.com/asset/pages/newhome/images/Cities-1500.jpg");
+  background-size: cover;
+  height: 1000px;
+}
+#usps .container .bottom-row .text-center img{
+  display: block;
+  height: 500px;
+  margin: 190px auto 0 auto;
+}
+#usps .container .bottom-row .text-center .links{
+  margin-top: 80px;
+}
+/* END USPS SECTION */
+
+/* FAMILY SECTION */
+#family .container {
+  width: 100%;
+  background: url('https://www.helbiz.com/asset/pages/newhome/images/Social-Banner.jpg') 50% no-repeat;
+  background-size: cover;
+  height: 480px;
+  margin: 45px auto;
+}
+#family .container
+/* END FAMILY SECTION*/
+
 /*** END MAIN ***/
