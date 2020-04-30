@@ -1,0 +1,55 @@
+/** GENERAL **/
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+ul li{
+  list-style: none;
+}
+ul li a{
+  text-decoration: none;
+  color: black;
+}
+.text-center {
+  text-align: center;
+}
+/** END GENERAL **/
+
+/*** HEADER ***/
+/* NAVBAR */
+nav {
+  background-color: #fff;
+  line-height: 60px;
+}
+ul li{
+  font-size: 0.8em;
+  display: inline-block;
+  padding-right: 5px;
+}
+.container .logo img{
+  width: 15%;
+}
+.container .menu>.menu-items{
+  float: left;
+  width: 80%;
+}
+.container .menu>.lang{
+  float: right;
+}
+.container .menu>.menu-items li{
+  padding-left: 20px;
+}
+/* END NAVBAR */
+
+/* HERO */
+.hero {
+  background-image: url();
+}
+/* END HERO */
+
+
+/*** END HEADER ***/
