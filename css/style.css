@@ -2,6 +2,7 @@
 body {
   font-family: 'Montserrat', sans-serif;
   font-size: 14px;
+  font-weight: 400;
 }
 .container {
   width: 75%;
@@ -30,6 +31,10 @@ ul li{
   display: inline-block;
   padding-right: 5px;
 }
+ul li a:hover {
+  font-size: 1.2em;
+  transition: 0.3s;
+}
 .container .logo img{
   width: 15%;
 }
@@ -46,10 +51,39 @@ ul li{
 /* END NAVBAR */
 
 /* HERO */
-.hero {
-  background-image: url();
+.hero>.container{
+  background-image: url('../img/hero-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 85vh;
 }
+.hero .container .text{
+  margin: 250px auto 10px auto;
+  color: white;
+}
+.hero .container .text h1{
+  font-size: 3em;
+  font-weight: 800;
+  text-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5);
+}
+.hero .container .appstore {
+  text-align: right;
+  padding-right: 10px;
+  text-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5)
+}
+.hero .container .playstore {
+  text-align: left;
+  padding-left: 10px;
+  text-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5)
+}
+.hero .container .appstore:hover {
+  padding-right: 5px;
+  transition: 0.2s;
+}
+.hero .container .playstore:hover{
+  padding-left: 5px;
+  transition: 0.2s;
+}
+
 /* END HERO */
-
-
 /*** END HEADER ***/
