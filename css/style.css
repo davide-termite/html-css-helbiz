@@ -18,6 +18,9 @@ ul li a{
 .text-center {
   text-align: center;
 }
+.white {
+  color: white;
+}
 /** END GENERAL **/
 
 /*** HEADER ***/
@@ -26,12 +29,12 @@ nav {
   background-color: #fff;
   line-height: 60px;
 }
-ul li{
+nav ul li{
   font-size: 0.8em;
   display: inline-block;
   padding-right: 5px;
 }
-ul li a:hover {
+nav ul li a:hover {
   font-size: 1.2em;
   transition: 0.3s;
 }
@@ -155,7 +158,6 @@ ul li a:hover {
 /* END STEPS SECTION */
 
 /* USPS SECTION */
-/* Text Style */
 #usps h2 {
   color: white;
   font-size: 3em;
@@ -178,7 +180,6 @@ ul li a:hover {
   transition: 0.3s;
   text-decoration: underline;
 }
-/* End Text Style */
 #usps .container {
   width: 98%;
   margin: 0 auto;
@@ -215,14 +216,126 @@ ul li a:hover {
 /* END USPS SECTION */
 
 /* FAMILY SECTION */
-#family .container {
+#family {
   width: 100%;
   background: url('https://www.helbiz.com/asset/pages/newhome/images/Social-Banner.jpg') 50% no-repeat;
   background-size: cover;
   height: 480px;
   margin: 45px auto;
 }
-#family .container
+#family .container {
+  height: 480px;
+  position: relative;
+}
+#family .container .content {
+  width: 480px;
+  height: 200px;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 60px 0;
+}
+#family .container .content .text h2{
+  font-size: 2em;
+}
+#family .container .content .social{
+  width: 25%;
+  margin: 0 auto;
+  line-height: 40px;
+  margin-top: 20px;
+}
+#family .container .content .social img{
+  height: 25px;
+}
 /* END FAMILY SECTION*/
-
 /*** END MAIN ***/
+
+/*** FOOTER ***/
+/* Genreal Footer Rules*/
+footer {
+  height: 700px;
+  background-color: black;
+}
+footer ul {
+  display: inline-block;
+}
+footer .wrap {
+  width: 95%;
+  margin: 0 auto;
+}
+footer .wrap>.container {
+  margin: 50px auto;
+}
+/* Genreal Footer Rules*/
+
+/* SITEMAP SECTION */
+footer .sitemap {
+  padding-top: 70px;
+}
+footer .sitemap .logo img{
+  width: 30%;
+}
+footer .sitemap .container ul li {
+  padding: 10px 0;
+}
+footer .sitemap .container h2{
+  font-size: 1.2em;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+footer .sitemap .container ul li a{
+  color: rgba(255,255,255,0.5);
+}
+/* END SITEMAP SECTION */
+/* LEGAL SECTION */
+footer .legal {
+  padding: 50px 0;
+  line-height: 25px;
+  vertical-align: middle;
+  border-top: 1px solid rgba(255,255,255,0.4);
+  border-bottom: 1px solid rgba(255,255,255,0.4);
+}
+footer .legal a{
+  text-decoration: none;
+  color: white;
+}
+footer .legal .social {
+  width: 25%;
+  margin: 0 auto;
+}
+footer .legal .social li{
+  display: inline-block;
+}
+footer .legal .social img{
+  max-width: 24px;
+  height: auto;
+  padding-right: 0.6em
+}
+footer .legal .container h2{
+  font-size: 1em;
+  font-weight: 300;
+}
+/* END LEGAL SECTION */
+/* STORE SECTION */
+footer .container .appstore {
+  text-align: right;
+  padding-right: 10px;
+  text-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5)
+}
+footer .container .playstore {
+  text-align: left;
+  padding-left: 10px;
+  text-shadow: 0px 3px 8px rgba(0, 0, 0, 0.5)
+}
+footer .container .appstore:hover {
+  padding-right: 5px;
+  transition: 0.2s;
+}
+footer .container .playstore:hover{
+  padding-left: 5px;
+  transition: 0.2s;
+}
+/* END STORE SECTION */
+/*** END FOOTER ***/
